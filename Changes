@@ -1,0 +1,60 @@
+0.008   2023-02-09  Released-By: PERLANCAR; Urgency: medium
+
+        - [ux] Set defaults so that access via Perl code also gets default.
+
+        - [doc] [rinci] Add summaries to some functions.
+
+
+0.007   2023-01-15  Released-By: PERLANCAR; Urgency: medium
+
+        - Add utilities: list-metacpan-distribution-versions,
+          download-metacpan-release, diff-metacpan-releases.
+
+        - [bugfix] download_url was not returned when requested.
+
+
+0.006   2022-02-19  Released-By: PERLANCAR; Urgency: medium
+
+        - [cli list-metacpan-releases] Add option --date as an alternative
+          to --from-date (& --to-date).
+
+
+0.005   2021-04-14  Released-By: PERLANCAR; Urgency: medium
+
+	- Add CLIs: open-metacpan-{dist,module}-page.
+
+
+0.004   2021-01-02  Released-By: PERLANCAR; Urgency: medium
+
+	- Add CLI: list-metacpan-distributions (not much filtering or fields
+          BTW, since what the API offers is not much).
+
+	[cli list-metacpan-releases]
+
+        - Add filtering options --status (--latest, --cpan, --backpan) &
+	  --first.
+
+        - Return 'status' and 'first' fields.
+
+
+0.003   2021-01-01  Released-By: PERLANCAR; Urgency: low
+
+	- No functional changes.
+
+	- [doc] Add some examples.
+
+
+0.002   2021-01-01  Released-By: PERLANCAR; Urgency: medium
+
+	- Add CLI: list-metacpan-releases.
+
+	- Add option --fields (-f) to select which fields to return.
+
+	- Observe METACPANUTILS_DUMP_API_RESULT.
+
+        - Add logging.
+
+
+0.001   2020-12-30  Released-By: PERLANCAR
+
+        - First release.
